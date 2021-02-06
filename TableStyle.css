@@ -1,0 +1,35 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:  100%;
+}
+
+tr {
+    border: 1px solid black;
+    padding: 10px 5px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px 5px;
+    width: 33%;
+}
+
+tr:nth-child(even) td:nth-child(even){
+    background-color: red;
+}
+
+tr:nth-child(even) td:nth-child(odd){
+    color: blue;
+    font-style: italic;
+}
+
+tr:nth-child(odd) td:nth-child(odd){
+    background-color: red;
+}
+
+tr:nth-child(odd) td:nth-child(even){
+    color: blue;
+    font-style: italic;
+}
+
