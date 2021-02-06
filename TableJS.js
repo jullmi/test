@@ -34,32 +34,3 @@ document.querySelector('button').addEventListener('click', function (event) {
         options.item(currentIndex).style.backgroundColor = 'white'
     }
 })
-
-
-
-
-// //добавление обработчика на выбор ячейки
-// document.querySelector('select').addEventListener('change', function () {
-//     let currentIndex = selectBox.selectedIndex
-//     let currentColor = document.querySelector('input').value
-//
-//     for (let item of options) {
-//         if (this.value == currentIndex) {
-//             item.style.backgroundColor = currentColor
-//             options.item(currentIndex).style.backgroundColor = 'white'
-//         }
-//     }
-// })
-//
-// //добавление обработчика на выбор цвета
-// document.querySelector('input').addEventListener('change', function () {
-//     let selectBox = document.querySelector('select')
-//     let currentIndex = selectBox.selectedIndex
-//     let currentColor = document.querySelector('input').value
-//
-//     for (let item of options) {
-//             item.style.backgroundColor = currentColor
-//             options.item(currentIndex).style.backgroundColor = 'white'
-//         }
-//     })
-
